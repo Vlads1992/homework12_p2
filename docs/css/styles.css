@@ -1,0 +1,155 @@
+body{
+    background-color: #E5EEEE;
+}
+
+.contact__wrapper{
+    width: 400px;
+    height: 496px;
+    background-image: linear-gradient(32deg, #3023ae 0%, #c86dd7 100%);
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input, button, label {
+    display: block;
+    margin-left: 71px;
+}
+
+.contact__button{
+    width: 261px;
+    height: 42px;
+    background-color: #23ae92;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+    color: #fbf6e4;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 41px;
+}
+
+.contact__input{
+    width: 254px;
+    height: 42px;
+    border: 2px solid rgba(191, 185, 204, 0.54);
+    background: transparent;
+}
+
+label {
+    color: #fbf6e4;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 11px;
+}
+
+input{
+    margin-bottom: 19px;
+}
+
+/* Customize the label (the container) */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    /* width: fit-content; */
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+    
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    background-color: #23ae92;
+    pointer-events: visible;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #2196F3;
+  }
+
+  /* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 5px;
+  top: 2px;
+  width: 4px;
+  height: 7px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+label.container {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    padding-top: 1px;
+    padding-left: 22px;
+}
+
+.contact__tabs {
+    display: flex;
+    margin-top: 53px;
+    margin-bottom: 52px;
+    
+}
+
+.contact__tab {
+    color: #fbf6e4;
+    margin-right: -42px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    
+    border-bottom-color: #e66a64;
+    background-color: transparent;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet", href="./css/reset.css">
+    <link rel="stylesheet", href="./css/styles.css">
+</head>
+<body>
+    <div class="contact__wrapper">
+        <form class="contact__form" action="index.html" method="GET">
+            <div class="contact__tabs">
+                <button class="contact__tab" type="button">Sign in</button>
+                <button class="contact__tab" type="button">Join Us</button>
+            </div>
+            <label for="name">Username</label>
+            <input class="contact__input" type="text" id="name" name="name"/>
+
+            <label for="pass">Password</label>
+            <input class="contact__input" type="text" id="pass" name="pass"/>
+            <label class="container"> Keep me signed in
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+            </label>
+            <button class="contact__button" type="submit" value="Submit">Sign in</button>
+        </form>
+    </div>
+</body>
+</html>
