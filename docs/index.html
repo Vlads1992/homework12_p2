@@ -12,14 +12,21 @@
     <div class="contact__wrapper">
         <form class="contact__form" action="index.html" method="GET">
             <div class="contact__tabs">
-                <button class="contact__tab" type="button">Sign in</button>
-                <button class="contact__tab" type="button">Join Us</button>
+                <a href="#" class="contact__sign">
+                    <button class="contact__tab" type="button">Sign in</button>
+                </a>
+                <a href="#" class="contact__join">
+                    <button class="contact__tab" type="button">Join Us</button>
+                </a>
             </div>
+            <div class="contact__wrap">
             <label for="name">Username</label>
             <input class="contact__input" type="text" id="name" name="name"/>
-
+            </div>
+            <div class="contact__wrap">
             <label for="pass">Password</label>
             <input class="contact__input" type="text" id="pass" name="pass"/>
+            </div>
             <label class="container"> Keep me signed in
                 <input type="checkbox" checked="checked">
                 <span class="checkmark"></span>

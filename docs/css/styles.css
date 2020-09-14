@@ -14,8 +14,20 @@ body{
 }
 
 input, button, label {
-    display: block;
-    margin-left: 71px;
+    float: left;
+    
+}
+
+.contact__wrap {
+    width: 261px;
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    text-align: center;
 }
 
 .contact__button{
@@ -139,17 +151,39 @@ label.container {
 }
 
 .contact__tab {
-    color: #fbf6e4;
-    margin-right: -42px;
+    color: #e1c2f1;
+    margin-left: 0px;
     font-family: 'Quicksand', sans-serif;
     font-size: 18px;
     font-weight: 700;
     cursor: pointer;
-    border-top: none;
-    border-left: none;
-    border-right: none;
+    border: none;
     outline: none;
-    
-    border-bottom-color: #e66a64;
+    padding: 0px 0px 3px 0px;
     background-color: transparent;
+    
 }
+
+.contact__tab:hover {
+    color: #fbf6e4;
+    
+}
+
+.contact__sign {
+    text-decoration: none;
+    color: inherit;
+}
+
+.contact__join {
+    text-decoration: none;
+    color: inherit;
+}
+
+.contact__sign:hover {
+    border-bottom: 2px solid #e66a64;
+}
+
+.contact__join:hover {
+    border-bottom: 2px solid #e66a64;
+}
+
