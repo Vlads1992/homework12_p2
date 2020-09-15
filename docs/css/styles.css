@@ -23,6 +23,7 @@ input, button, label {
 
 .contact__wrap {
     width: 261px;
+    
 }
 
 .contact__form {
@@ -41,25 +42,32 @@ input, button, label {
     font-family: 'Quicksand', sans-serif;
     color: #fbf6e4;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 400;
     cursor: pointer;
-    margin-top: 41px;
+    margin-top: 32px;
+    letter-spacing: 1.0px;
+    
 }
 
 .contact__input{
     width: 254px;
-    height: 42px;
+    height: 32px;
     border: 2px solid rgba(191, 185, 204, 0.54);
     background: transparent;
     outline: none;
+    
+    
 }
 
 label {
     color: #fbf6e4;
     font-family: 'Quicksand', sans-serif;
-    font-size: 16px;
-    font-weight: 700;
+    font-size: 15px;
+    font-weight: 400;
     margin-bottom: 11px;
+    letter-spacing: 1.4px;
+    text-align: justify;
+    
 }
 
 input{
@@ -96,6 +104,7 @@ input{
   /* Create a custom checkbox */
   .checkmark {
     position: absolute;
+    margin-top: 2px;
     top: 0;
     left: 0;
     height: 16px;
@@ -141,16 +150,20 @@ input{
 
 label.container {
     font-family: 'Quicksand', sans-serif;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 700;
-    padding-top: 1px;
-    padding-left: 22px;
+    padding-top: 4px;
+    padding-left: 24px;
+    letter-spacing: 0.9px;
+    text-align: justify;
+    
+    
 }
 
 .contact__tabs {
     display: flex;
-    margin-top: 53px;
-    margin-bottom: 52px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     
 }
 
@@ -158,14 +171,14 @@ label.container {
     color: #e1c2f1;
     margin-left: 0px;
     font-family: 'Quicksand', sans-serif;
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 400;
     cursor: pointer;
     border: none;
     outline: none;
     padding: 0px 0px 3px 0px;
     background-color: transparent;
-    
+    letter-spacing: 1.8px;
 }
 
 .contact__tab:hover {
@@ -178,6 +191,7 @@ label.container {
     color: inherit;
     margin-right: 25px;
     border-bottom: 2px solid transparent;
+    
 }
 
 .contact__join {
@@ -194,4 +208,48 @@ label.container {
     border-bottom: 2px solid #e66a64;
 }
 
+
+.contact__acc {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 28px;
+    
+}
+
+.contact__account {
+    color: #b9b9cc;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    background-color: transparent;
+    border: none;
+    padding: 0 0 3px 0;
+    cursor: pointer;
+    letter-spacing: 0.6px;
+
+}
+
+.contact__forgot {
+    text-decoration: none;
+    color: inherit;
+    /*margin-right: 30px;*/
+    border-bottom: 2px solid transparent;
+    
+}
+
+.contact__create {
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 2px solid transparent;
+
+    
+}
+
+.contact__forgot:hover {
+    border-bottom: 2px solid rgba(150,193,218, 0.15);
+}
+
+.contact__create:hover {
+    border-bottom: 2px solid rgba(150,193,218, 0.15);
+}
 
