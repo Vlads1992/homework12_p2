@@ -43,7 +43,7 @@ input::placeholder {
     font-family: 'Quicksand', sans-serif;
     font-size: 13px;
     font-weight: 400;
-    padding-left: 10px;
+    
 }  
 
 
@@ -64,12 +64,12 @@ input::placeholder {
 }
 
 .contact__input{
-    width: 254px;
+    width: 248px;
     height: 32px;
     border: 2px solid rgba(191, 185, 204, 0.54);
     background: transparent;
     outline: none;
-    
+    padding-left: 10px;
     
 }
 
