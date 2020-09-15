@@ -34,6 +34,19 @@ input, button, label {
     text-align: center;
 }
 
+input{
+    color: #fbf6e4;
+  }
+
+input::placeholder {
+    color: #fbf6e4;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}  
+
+
+
 .contact__button{
     width: 261px;
     height: 42px;
@@ -55,7 +68,7 @@ input, button, label {
     border: 2px solid rgba(191, 185, 204, 0.54);
     background: transparent;
     outline: none;
-    
+    padding-left: 10px;
     
 }
 
@@ -83,7 +96,7 @@ input{
     cursor: pointer;
     font-size: 22px;
     /* width: fit-content; */
-    pointer-events: none;
+    
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
