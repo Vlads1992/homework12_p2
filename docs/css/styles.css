@@ -179,33 +179,26 @@ label.container {
     padding: 0px 0px 3px 0px;
     background-color: transparent;
     letter-spacing: 1.8px;
+    border-bottom: 2px solid transparent;
 }
 
 .contact__tab:hover {
     color: #fbf6e4;
-    
+    border-bottom: 2px solid #e66a64;
 }
 
 .contact__sign {
     text-decoration: none;
     color: inherit;
     margin-right: 25px;
-    border-bottom: 2px solid transparent;
+    
     
 }
 
 .contact__join {
     text-decoration: none;
     color: inherit;
-    border-bottom: 2px solid transparent;
-}
-
-.contact__sign:hover {
-    border-bottom: 2px solid #e66a64;
-}
-
-.contact__join:hover {
-    border-bottom: 2px solid #e66a64;
+    
 }
 
 
@@ -217,7 +210,7 @@ label.container {
 }
 
 .contact__account {
-    color: #b9b9cc;
+    color: rgb(185, 185, 204);
     font-family: 'Quicksand', sans-serif;
     font-size: 13px;
     font-weight: 400;
@@ -226,30 +219,28 @@ label.container {
     padding: 0 0 3px 0;
     cursor: pointer;
     letter-spacing: 0.6px;
-
+    border-bottom: 2px solid rgba(150,193,218, 0.15);
 }
 
 .contact__forgot {
     text-decoration: none;
     color: inherit;
     /*margin-right: 30px;*/
-    border-bottom: 2px solid transparent;
+    
     
 }
 
 .contact__create {
     text-decoration: none;
     color: inherit;
-    border-bottom: 2px solid transparent;
+    
 
     
 }
 
-.contact__forgot:hover {
-    border-bottom: 2px solid rgba(150,193,218, 0.15);
+.contact__account:hover {
+    color: white;
+    border-bottom: 2px solid rgba(150,193,218, 1);
 }
 
-.contact__create:hover {
-    border-bottom: 2px solid rgba(150,193,218, 0.15);
-}
 
